@@ -23,7 +23,7 @@ main {
     position: relative;
 }
 
-section#telefone {
+section#telefone { /*Para centralizar a imagem no meio*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,4 +32,12 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela { /*ajustando a imagem para caber no celular*/
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
 }
